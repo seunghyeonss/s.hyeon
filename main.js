@@ -58,6 +58,9 @@ $(function(){
   })
   
 
+  AOS.init();
+
+
 ///typing txt intro
   
 

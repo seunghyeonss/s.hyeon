@@ -112,6 +112,14 @@ footer .to_top {position:fixed;bottom:50px;right:50px;font-size:24px;z-index:999
 .cover li a:hover:before {margin-right:25px;}
 .cover li a:hover:after {opacity:1;}
 
+.portfolio01 figure{transform:translateY(100px);opacity:0;}
+.portfolio01.on figure{transform:translateY(0);opacity:1;transition:0.5s;}
+
+.portfolio02 figure{transform:translateX(100px);opacity:0;}
+.portfolio02.on figure{transform:translateX(0);opacity:1;transition:0.5s;}
+
+
+
 
 /*
 

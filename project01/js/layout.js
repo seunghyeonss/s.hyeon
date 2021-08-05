@@ -96,8 +96,8 @@ $(function(){
         if(lik) window.open(lik);
     })
     
-    AOS.init();
 
+    AOS.init();
 
 
     });
