@@ -62,7 +62,7 @@ $(function(){
   
 
   var options = {
-    strings: ['Lee-Seung-Hyeon 2021'],
+    strings: ['2021 P o r t F o l i o'],
     typeSpeed: 100
   };
   
