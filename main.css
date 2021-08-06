@@ -163,8 +163,8 @@ padding: 0 15px; width: 100%;}
 .intro .intro_slogan p {font-size:14px;font-weight:100;text-shadow:1px 1px 0 #333; line-height: 1.6;}
 
 
-.section {background:#fff url(./bg01.png) ;}
-.section:nth-child(odd) {background:#f2f2f2 url(./bg02.png) ;}
+.section {background:#fff url(./bg01.jpg) ;}
+.section:nth-child(odd) {background:#f2f2f2 url(./bg02.jpg) ;}
 .section .container {display:flex;flex-direction: column; width:auto;margin:0 auto;}
 .section .container>* {flex:1; padding:15px 25px;}
 .section .container video {width:100%;}
