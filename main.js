@@ -65,8 +65,8 @@ $(function(){
   
 
   var options = {
-    strings: ['2021 P o r t F o l i o'],
-    typeSpeed: 100
+    strings: ['Simple and Modern Style'],
+    typeSpeed: 130
   };
   
   var typed = new Typed('.intro_slogan .txt', options);

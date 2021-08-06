@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
 
 body {color: #fff;}
 
@@ -22,8 +22,9 @@ nav ul li.on a:after {transform: translateX(-20px); background: #f00;}
 
 .intro .intro_slogan {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;text-align:center;}
 
-.intro .intro_slogan h2 {font-size:60px;font-family: 'WindSong', cursive;text-shadow:1px 1px 0 #333;margin-bottom:30px;}
+.intro .intro_slogan h2 {font-size:80px;font-family: 'Caveat', cursive;text-shadow:1px 1px 0 #333;margin-bottom:30px;}
 .intro .intro_slogan p {font-size:18px;font-weight:100;text-shadow:1px 1px 0 #333;}
+
 
 
 .section {background:#c2c2c2 url(./bg01.jpg) ;}
@@ -31,7 +32,7 @@ nav ul li.on a:after {transform: translateX(-20px); background: #f00;}
 .section .container {display:flex;width:1300px;margin:0 auto;}
 .section .container>* {flex:1;padding:0 25px;}
 .section .container video {width:100%;}
-.section .container h2 {font-size:50px;font-family: 'WindSong', cursive;padding:40px 0 0 0;margin-bottom:24px;}
+.section .container h2 {font-size:50px;font-family: 'Caveat', cursive;padding:40px 0 0 0;margin-bottom:24px;}
 .section .container p {font-weight:100;line-height:1.4;margin-bottom:24px;}
 .section .container ul {font-weight:100;line-height:1.4;margin-bottom:24px;}
 
@@ -52,7 +53,7 @@ nav ul li.on a:after {transform: translateX(-20px); background: #f00;}
 .section .txt .font li {margin-right: 20px;}
 
 .section .video_case {background:url() no-repeat;padding:20px;position:relative;}
-.section .video_case video {border-radius:20px;}
+.section .video_case video {border-radius:30px 0 30px 0;}
 .section .video_case:before {content:"";display:block;width:100px;height:100px;border-radius:70%;background:rgba(255,0,0,0.5);position:absolute;top:-30px;left:-30px;}
 .section .video_case:after{content:"";display:block;width:60px;height:60px;border-radius:15px;background:rgba(255,255,0,0.5);position:absolute;top:-50px;left:-50px;}
 
@@ -102,7 +103,7 @@ footer .to_top {position:fixed;bottom:50px;right:50px;font-size:24px;z-index:999
 
 .cover .info_case img {width:80%;border-radius:50%;}  /*   필터 filter:invert();  */ 
 
-.cover h2 {font-size:50px;font-family: 'WindSong', cursive;padding:40px 0 0 0;margin-bottom:24px;}
+.cover h2 {font-size:50px;font-family: 'Caveat', cursive;padding:40px 0 0 0;margin-bottom:24px;}
 .cover p {font-size:14px;padding:20px 0 20px 0;margin-bottom:24px;border-bottom:1px dotted #666;}
 .cover li a {display:block;line-height:30px;}
 .cover li a:before {content:"\ea13";font-family: xeicon!important;margin-right:15px;color:#f00;transition:0.3s;}
@@ -158,7 +159,7 @@ nav ul li.on a:after {transform: translateX(-20px); background: #f00;}
 .intro .intro_slogan {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;text-align:center;
 padding: 0 15px; width: 100%;}
 
-.intro .intro_slogan h2 {font-size:25px;font-family: 'WindSong', cursive;text-shadow:1px 1px 0 #333;margin-bottom:30px; }
+.intro .intro_slogan h2 {font-size:25px;font-family: 'Caveat', cursive;text-shadow:1px 1px 0 #333;margin-bottom:30px; }
 
 .intro .intro_slogan p {font-size:14px;font-weight:100;text-shadow:1px 1px 0 #333; line-height: 1.6;}
 
@@ -168,7 +169,7 @@ padding: 0 15px; width: 100%;}
 .section .container {display:flex;flex-direction: column; width:auto;margin:0 auto;}
 .section .container>* {flex:1; padding:15px 25px;}
 .section .container video {width:100%;}
-.section .container h2 {font-size:50px;font-family: 'WindSong', cursive;padding:0 0 0 0;margin-bottom:24px;}
+.section .container h2 {font-size:50px;font-family: 'Caveat', cursive;padding:0 0 0 0;margin-bottom:24px;}
 .section .container p {font-weight:100;line-height:1.4;margin-bottom:24px;}
 .section .container ul {font-weight:100;line-height:1.4;margin-bottom:24px;}
 
@@ -248,7 +249,7 @@ footer .to_top {position:fixed;bottom:30px;right:30px;font-size:24px;z-index:999
 
 .cover .info_case img {width:70%; border-radius:50%;}
 
-.cover h2 {font-size:30px;font-family: 'WindSong', cursive;padding:20px 0 0 0;margin-bottom:0;}
+.cover h2 {font-size:30px;font-family: 'Caveat', cursive;padding:20px 0 0 0;margin-bottom:0;}
 .cover p {font-size:14px;padding:20px 0 20px 0;margin-bottom:18px;border-bottom:0 dotted #666;}
 .cover li a {display:block;line-height:20px;}
 .cover li a:before {content:"\ea13";font-family: xeicon!important;margin-right:15px;color:#f00;transition:0.3s;}
