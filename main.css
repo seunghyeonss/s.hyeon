@@ -26,8 +26,8 @@ nav ul li.on a:after {transform: translateX(-20px); background: #f00;}
 .intro .intro_slogan p {font-size:18px;font-weight:100;text-shadow:1px 1px 0 #333;}
 
 
-.section {background:#c2c2c2 url(./bg01.png) ;}
-.section:nth-child(odd) {background:#333 url(bg02.png) ;}
+.section {background:#c2c2c2 url(./bg01.jpg) ;}
+.section:nth-child(odd) {background:#333 url(./bg02.jpg) ;}
 .section .container {display:flex;width:1300px;margin:0 auto;}
 .section .container>* {flex:1;padding:0 25px;}
 .section .container video {width:100%;}
@@ -100,7 +100,7 @@ footer .to_top {position:fixed;bottom:50px;right:50px;font-size:24px;z-index:999
 .cover .container {display:flex;color:#333;width:1300px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
 .cover .container>* {flex:1;padding:0 25px;}
 
-.cover .info_case img {width:80%;filter:invert();border-radius:50%;}
+.cover .info_case img {width:80%;border-radius:50%;}  /*   필터 filter:invert();  */ 
 
 .cover h2 {font-size:50px;font-family: 'WindSong', cursive;padding:40px 0 0 0;margin-bottom:24px;}
 .cover p {font-size:14px;padding:20px 0 20px 0;margin-bottom:24px;border-bottom:1px dotted #666;}
@@ -112,8 +112,11 @@ footer .to_top {position:fixed;bottom:50px;right:50px;font-size:24px;z-index:999
 .cover li a:hover:before {margin-right:25px;}
 .cover li a:hover:after {opacity:1;}
 
-.portfolio01 figure{transform:translateY(100px);opacity:0;}
-.portfolio01.on figure{transform:translateY(0);opacity:1;transition:0.5s;}
+/*aos  */
+
+
+.portfolio01 figure{transform:translateX(-100px);opacity:0;}
+.portfolio01.on figure{transform:translatex(0);opacity:1;transition:0.5s;}
 
 .portfolio02 figure{transform:translateX(100px);opacity:0;}
 .portfolio02.on figure{transform:translateX(0);opacity:1;transition:0.5s;}
@@ -243,7 +246,7 @@ footer .to_top {position:fixed;bottom:30px;right:30px;font-size:24px;z-index:999
 .cover .container {display:flex; flex-direction: column; color:#333; width:100%; position:absolute; top:50%; left:50%;transform:translate(-50%,-50%)}
 .cover .container>* {flex:1; padding:0 25px;}
 
-.cover .info_case img {width:70%;filter:invert(); border-radius:50%;}
+.cover .info_case img {width:70%; border-radius:50%;}
 
 .cover h2 {font-size:30px;font-family: 'WindSong', cursive;padding:20px 0 0 0;margin-bottom:0;}
 .cover p {font-size:14px;padding:20px 0 20px 0;margin-bottom:18px;border-bottom:0 dotted #666;}
